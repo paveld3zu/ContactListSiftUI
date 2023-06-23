@@ -11,14 +11,26 @@
 		68EA1C6D2A449A370055F98E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EA1C6C2A449A370055F98E /* ContentView.swift */; };
 		68EA1C6F2A449A380055F98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EA1C6E2A449A380055F98E /* Assets.xcassets */; };
 		68EA1C722A449A380055F98E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EA1C712A449A380055F98E /* Preview Assets.xcassets */; };
+		68EA1C792A449AFA0055F98E /* PhoneAndEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EA1C782A449AFA0055F98E /* PhoneAndEmailView.swift */; };
+		68EA1C7B2A449B260055F98E /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EA1C7A2A449B260055F98E /* PersonListView.swift */; };
+		68EA1C7D2A449B500055F98E /* FullDataPersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EA1C7C2A449B500055F98E /* FullDataPersonListView.swift */; };
+		68EA1C7F2A449B6C0055F98E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EA1C7E2A449B6C0055F98E /* Person.swift */; };
+		68EA1C812A449BAD0055F98E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EA1C802A449BAD0055F98E /* DetailView.swift */; };
+		68EA1C852A449C3B0055F98E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EA1C842A449C3B0055F98E /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		68EA1C672A449A370055F98E /* ContactListSiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EA1C672A449A370055F98E /* ContactListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EA1C6A2A449A370055F98E /* ContactListSiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSiftUIApp.swift; sourceTree = "<group>"; };
 		68EA1C6C2A449A370055F98E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68EA1C6E2A449A380055F98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68EA1C712A449A380055F98E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68EA1C782A449AFA0055F98E /* PhoneAndEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAndEmailView.swift; sourceTree = "<group>"; };
+		68EA1C7A2A449B260055F98E /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
+		68EA1C7C2A449B500055F98E /* FullDataPersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullDataPersonListView.swift; sourceTree = "<group>"; };
+		68EA1C7E2A449B6C0055F98E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		68EA1C802A449BAD0055F98E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		68EA1C842A449C3B0055F98E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +55,7 @@
 		68EA1C682A449A370055F98E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68EA1C672A449A370055F98E /* ContactListSiftUI.app */,
+				68EA1C672A449A370055F98E /* ContactListSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +63,12 @@
 		68EA1C692A449A370055F98E /* ContactListSiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				68EA1C802A449BAD0055F98E /* DetailView.swift */,
+				68EA1C7C2A449B500055F98E /* FullDataPersonListView.swift */,
+				68EA1C7A2A449B260055F98E /* PersonListView.swift */,
+				68EA1C782A449AFA0055F98E /* PhoneAndEmailView.swift */,
+				68EA1C7E2A449B6C0055F98E /* Person.swift */,
+				68EA1C842A449C3B0055F98E /* DataManager.swift */,
 				68EA1C6A2A449A370055F98E /* ContactListSiftUIApp.swift */,
 				68EA1C6C2A449A370055F98E /* ContentView.swift */,
 				68EA1C6E2A449A380055F98E /* Assets.xcassets */,
@@ -70,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68EA1C662A449A370055F98E /* ContactListSiftUI */ = {
+		68EA1C662A449A370055F98E /* ContactListSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68EA1C752A449A380055F98E /* Build configuration list for PBXNativeTarget "ContactListSiftUI" */;
+			buildConfigurationList = 68EA1C752A449A380055F98E /* Build configuration list for PBXNativeTarget "ContactListSwiftUI" */;
 			buildPhases = (
 				68EA1C632A449A370055F98E /* Sources */,
 				68EA1C642A449A370055F98E /* Frameworks */,
@@ -82,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = ContactListSiftUI;
+			name = ContactListSwiftUI;
 			productName = ContactListSiftUI;
-			productReference = 68EA1C672A449A370055F98E /* ContactListSiftUI.app */;
+			productReference = 68EA1C672A449A370055F98E /* ContactListSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 68EA1C622A449A370055F98E /* Build configuration list for PBXProject "ContactListSiftUI" */;
+			buildConfigurationList = 68EA1C622A449A370055F98E /* Build configuration list for PBXProject "ContactListSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68EA1C662A449A370055F98E /* ContactListSiftUI */,
+				68EA1C662A449A370055F98E /* ContactListSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EA1C852A449C3B0055F98E /* DataManager.swift in Sources */,
+				68EA1C7F2A449B6C0055F98E /* Person.swift in Sources */,
+				68EA1C7D2A449B500055F98E /* FullDataPersonListView.swift in Sources */,
+				68EA1C792A449AFA0055F98E /* PhoneAndEmailView.swift in Sources */,
+				68EA1C812A449BAD0055F98E /* DetailView.swift in Sources */,
+				68EA1C7B2A449B260055F98E /* PersonListView.swift in Sources */,
 				68EA1C6D2A449A370055F98E /* ContentView.swift in Sources */,
 				68EA1C6B2A449A370055F98E /* ContactListSiftUIApp.swift in Sources */,
 			);
@@ -320,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68EA1C622A449A370055F98E /* Build configuration list for PBXProject "ContactListSiftUI" */ = {
+		68EA1C622A449A370055F98E /* Build configuration list for PBXProject "ContactListSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68EA1C732A449A380055F98E /* Debug */,
@@ -329,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68EA1C752A449A380055F98E /* Build configuration list for PBXNativeTarget "ContactListSiftUI" */ = {
+		68EA1C752A449A380055F98E /* Build configuration list for PBXNativeTarget "ContactListSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68EA1C762A449A380055F98E /* Debug */,
